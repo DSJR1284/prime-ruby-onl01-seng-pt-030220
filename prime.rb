@@ -6,10 +6,13 @@
   # if there are any numbers with a remainder = to 0 
   # returns false. 
   
-  # if we divided a number by 
+  # Anything else return true. 
 
 def prime?(int)
- 
+ if int <= 1 
+   return false
+ else 
+   if int
   
 end 
 
