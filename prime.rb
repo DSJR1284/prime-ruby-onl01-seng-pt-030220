@@ -1,4 +1,4 @@
-requrie "pry"
+require "pry"
 
 # Prime number if we have a remainder from divding by 2 
 # if any number is less than or = to 1 its not a prime #
