@@ -13,15 +13,14 @@ require "pry"
 def prime?(int)
  if int <= 1 
    return false
-   binding.pry 
  else 
    if (2...int).any? {|n| int % n == 0}
      return false 
    else 
      return true 
     end 
-    
   end 
+  binding.pry 
 end 
 
 
