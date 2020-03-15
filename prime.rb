@@ -12,7 +12,8 @@ def prime?(int)
  if int <= 1 
    return false
  else 
-   if (2...int).any? 
+   if (2...int).any? {|n| int % n == 0}
+     return false 
   
 end 
 
